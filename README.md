@@ -1,7 +1,7 @@
-## RagnarokCraft - Site
-Site feito para o servidor RagnarokCraft.
+## Ragnarok - Site
+Site feito para o servidor Ragnarok.
 
-# Usado:
+# Utilizado:
 
 - [Next.JS](https://nextjs.org/)
 - [ShadCN](https://ui.shadcn.com/)

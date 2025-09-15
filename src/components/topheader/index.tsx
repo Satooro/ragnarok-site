@@ -27,7 +27,8 @@ export default function TopHeaderComponent(){
 
 
         <a 
-        href="" 
+        href="https://discord.com/invite/x6kNt5fqB"
+        target="_blank"
         className="group"
         onMouseEnter={() => setDiscordHover(true)}
         onMouseLeave={() => setDiscordHover(false)}

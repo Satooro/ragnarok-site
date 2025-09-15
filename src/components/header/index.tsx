@@ -4,7 +4,7 @@ import { SidebarTrigger } from "../ui/sidebar";
 export default function HeaderComponent() {
   return (
     //bg-[#E9ECEF]
-<div className="bg-[#E9ECEF] h-[70px] flex items-center sticky top-0 overflow-hidden border-4 shadow-lg shadow-[#CC7404]">
+<div className="bg-[#E9ECEF] h-[70px] flex items-center sticky top-0 overflow-hidden border-4 shadow-sm shadow-[#000]">
   <div className="flex w-full items-center justify-center px-4 flex-1">
     <a href="">
       <Image src="/assets/images/ragnarok-text-logo2.png" alt="" width={200} height={0} />
@@ -16,12 +16,12 @@ export default function HeaderComponent() {
           <li><a href="" className="hover:text-yellow-500">Quem somos</a></li>
           <li><a href="" className="hover:text-yellow-500">Loja</a></li>
           <li><a href="" className="hover:text-yellow-500">Equipe</a></li>
-          <li><a href="" className="hover:text-yellow-500">Discord</a></li>
+          <li><a href="https://discord.com/invite/x6kNt5fqB3" target="_blank" className="hover:text-yellow-500">Discord</a></li>
         </ul>
       </nav>
     </div>
   </div>
-  <SidebarTrigger className=" md:hidden size-[50px] mr-3 bg-amber-500 justify-center self-center" />
+  <SidebarTrigger className="flex md:hidden size-[50px] mr-3 bg-amber-500 justify-center self-center" />
 </div>
 
 
